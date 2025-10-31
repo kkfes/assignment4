@@ -1,0 +1,33 @@
+{
+  "name": "Medium Multiple SCC Dataset",
+  "description": "Multiple SCCs with cross-connections - REQUIRED for assignment",
+  "vertices": 15,
+  "vertexNames": ["t0", "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11", "t12", "t13", "t14"],
+  "edges": [
+    {"from": 0, "to": 1, "weight": 2},
+    {"from": 1, "to": 2, "weight": 1},
+    {"from": 2, "to": 0, "weight": 1},
+    {"from": 3, "to": 4, "weight": 2},
+    {"from": 4, "to": 5, "weight": 1},
+    {"from": 5, "to": 3, "weight": 2},
+    {"from": 6, "to": 7, "weight": 1},
+    {"from": 7, "to": 6, "weight": 2},
+    {"from": 0, "to": 3, "weight": 2},
+    {"from": 2, "to": 6, "weight": 1},
+    {"from": 4, "to": 8, "weight": 2},
+    {"from": 7, "to": 9, "weight": 1},
+    {"from": 8, "to": 10, "weight": 1},
+    {"from": 9, "to": 10, "weight": 2},
+    {"from": 10, "to": 11, "weight": 1},
+    {"from": 11, "to": 12, "weight": 2},
+    {"from": 12, "to": 13, "weight": 1},
+    {"from": 13, "to": 14, "weight": 2},
+    {"from": 1, "to": 9, "weight": 1},
+    {"from": 5, "to": 11, "weight": 2}
+  ],
+  "type": "mixed",
+  "scc_count": 5,
+  "largest_scc_size": 3,
+  "notes": "Contains 3 cyclic SCCs and 2 single-vertex SCCs with inter-component edges"
+}
+

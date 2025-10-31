@@ -1,0 +1,35 @@
+{
+  "name": "Medium Sparse DAG Dataset",
+  "description": "Layered sparse DAG for sparse graph testing",
+  "vertices": 16,
+  "vertexNames": ["l0_0", "l1_0", "l1_1", "l2_0", "l2_1", "l2_2", "l3_0", "l3_1", "l3_2", "l3_3", "l4_0", "l4_1", "l4_2", "l4_3", "l5_0", "l5_1"],
+  "edges": [
+    {"from": 0, "to": 1, "weight": 1},
+    {"from": 0, "to": 2, "weight": 2},
+    {"from": 1, "to": 3, "weight": 2},
+    {"from": 1, "to": 4, "weight": 1},
+    {"from": 2, "to": 4, "weight": 2},
+    {"from": 2, "to": 5, "weight": 1},
+    {"from": 3, "to": 6, "weight": 1},
+    {"from": 4, "to": 7, "weight": 2},
+    {"from": 5, "to": 7, "weight": 1},
+    {"from": 5, "to": 8, "weight": 2},
+    {"from": 6, "to": 9, "weight": 2},
+    {"from": 7, "to": 10, "weight": 1},
+    {"from": 8, "to": 10, "weight": 1},
+    {"from": 8, "to": 11, "weight": 2},
+    {"from": 9, "to": 12, "weight": 1},
+    {"from": 10, "to": 13, "weight": 2},
+    {"from": 11, "to": 13, "weight": 1},
+    {"from": 12, "to": 14, "weight": 2},
+    {"from": 13, "to": 15, "weight": 1},
+    {"from": 14, "to": 15, "weight": 1},
+    {"from": 11, "to": 14, "weight": 2}
+  ],
+  "type": "dag",
+  "scc_count": 16,
+  "largest_scc_size": 1,
+  "structure": "layered",
+  "density": 0.088
+}
+

@@ -1,0 +1,19 @@
+{
+  "name": "Small DAG Dataset 1",
+  "description": "Linear pipeline for basic topological sort testing",
+  "vertices": 7,
+  "vertexNames": ["start", "design", "develop", "test", "integrate", "deploy", "end"],
+  "edges": [
+    {"from": 0, "to": 1, "weight": 1},
+    {"from": 1, "to": 2, "weight": 2},
+    {"from": 2, "to": 3, "weight": 3},
+    {"from": 3, "to": 4, "weight": 2},
+    {"from": 4, "to": 5, "weight": 1},
+    {"from": 5, "to": 6, "weight": 2}
+  ],
+  "type": "dag",
+  "scc_count": 7,
+  "largest_scc_size": 1,
+  "critical_path_length": 11
+}
+

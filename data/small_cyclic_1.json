@@ -1,0 +1,21 @@
+{
+  "name": "Small Cyclic Dataset 1",
+  "description": "Two independent cyclic components for SCC testing",
+  "vertices": 8,
+  "vertexNames": ["task_A", "task_B", "task_C", "task_D", "task_E", "task_F", "task_G", "task_H"],
+  "edges": [
+    {"from": 0, "to": 1, "weight": 2},
+    {"from": 1, "to": 2, "weight": 3},
+    {"from": 2, "to": 0, "weight": 1},
+    {"from": 3, "to": 4, "weight": 2},
+    {"from": 4, "to": 5, "weight": 1},
+    {"from": 5, "to": 3, "weight": 1},
+    {"from": 2, "to": 3, "weight": 2},
+    {"from": 1, "to": 6, "weight": 2},
+    {"from": 6, "to": 7, "weight": 3}
+  ],
+  "type": "cyclic",
+  "scc_count": 3,
+  "largest_scc_size": 3
+}
+

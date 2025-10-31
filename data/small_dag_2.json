@@ -1,0 +1,22 @@
+{
+  "name": "Small DAG Dataset 2",
+  "description": "Multiple chains converging for complex path testing",
+  "vertices": 10,
+  "vertexNames": ["t0", "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9"],
+  "edges": [
+    {"from": 0, "to": 1, "weight": 2},
+    {"from": 1, "to": 2, "weight": 1},
+    {"from": 3, "to": 4, "weight": 3},
+    {"from": 4, "to": 5, "weight": 1},
+    {"from": 6, "to": 7, "weight": 2},
+    {"from": 2, "to": 8, "weight": 1},
+    {"from": 5, "to": 8, "weight": 2},
+    {"from": 7, "to": 8, "weight": 1},
+    {"from": 8, "to": 9, "weight": 2}
+  ],
+  "type": "dag",
+  "scc_count": 10,
+  "largest_scc_size": 1,
+  "critical_path_length": 7
+}
+
